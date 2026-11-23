@@ -2,12 +2,14 @@
 
 ![Scaevola: you bring the ideas, it builds the team behind them](media/scaevola.gif)
 
+**Start here:** [PASTE-INTO-CLAUDE.md](PASTE-INTO-CLAUDE.md) is the whole prompt. Copy it into a new Claude chat.
+
 Named for the fan flower, whose blooms look like half a flower. You bring the ideas half. Scaevola writes down the half that runs the business.
 
 **All you need is a paid Claude account and a free GitHub account.**
 
 ## What it is
-A free prompt you paste into Claude. It helps you write your business down: your plan, who you sell to, your pricing rules, your decisions and your customer notes. It saves them as plain files in your own GitHub, where Claude can read all of them properly. Then a few assistants work from those files:
+A free [prompt](PASTE-INTO-CLAUDE.md) you paste into Claude. It helps you write your business down: your plan, who you sell to, your pricing rules, your decisions and your customer notes. It saves them as plain files in your own GitHub, where Claude can read all of them properly. Then a few assistants work from those files:
 
 - **Chief of staff:** keeps the files current and helps you pick what matters this week.
 - **Devil's advocate:** the strongest case against a big call, before you make it.
@@ -36,7 +38,7 @@ It's not a hire, and it doesn't run anything on its own.
 | Each teammate or person in a seat (optional) | Any Claude account, including Free, and a free GitHub account. They ask for their Monday brief in a chat. To save changes, or to get a brief on a schedule, they need a paid Claude plan too *(check at launch)*. |
 
 ## How to start
-1. Copy the prompt from this page.
+1. Open [PASTE-INTO-CLAUDE.md](PASTE-INTO-CLAUDE.md) and click **Copy raw file** (the copy icon above the file).
 2. Open a new chat at claude.ai and paste it.
 3. Answer one question at a time. It tells you each next step.
 

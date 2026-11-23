@@ -1,7 +1,7 @@
 #!/bin/sh
 # Prints the paste-ready prompt: PROMPT.md, then every starter template, then TEAM-ACCESS.md.
 # The templates live once, in template/; this keeps the pasted prompt in step with them.
-# Usage: sh kit/build-prompt.sh > paste-ready.md
+# Usage: sh build-prompt.sh > PASTE-INTO-CLAUDE.md  (run again whenever a template changes)
 set -e
 cd "$(dirname "$0")"
 
