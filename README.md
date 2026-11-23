@@ -10,7 +10,7 @@ Scaevola is a free, open system that builds your executive team in Claude. It wr
 
 **Start here:** [PROMPT.md](PROMPT.md) is the installer. Copy it into a new Claude chat and answer one question at a time. It copies the system's files in [team/](team/) and [owner-only/](owner-only/) into two private repositories in your own GitHub and fills them in from your answers.
 
-Scaevola is new and still being tested. Play with it, break it, rebuild it, and share what you made in [Discussions](https://github.com/davidlionel/scaevola/discussions) so the next person starts further ahead.
+**Built with Scaevola.** Scaevola's own launch ran on Scaevola: an executive team in Claude, house rules and lessons planned it, wrote it and learned from its mistakes. It's out in the open early on purpose, because GTM and AI move too fast to wait for perfect. Use it, push it, improve it, and share what you made in [Discussions](https://github.com/davidlionel/scaevola/discussions). Every release makes it better for everyone, and your Monday brief tells you when there's a new one.
 
 ## What's in the system
 1. **Your business, written down.** Your plan, customers, pricing rules, decisions, seat map and account notes, as plain files in your team repository. People notes, margins and anything else only you should see go in a separate owner-only repository. Every assistant reads the files first, so no chat starts from zero.
@@ -63,7 +63,7 @@ Named for the fan flower, whose blooms look like half a flower. You bring the id
 | Who | Needs |
 |---|---|
 | You | A paid Claude plan (Pro or above) and a free GitHub account. No GitHub account yet? The prompt walks you through it. |
-| Each teammate or person in a seat (optional) | Any Claude account, including Free, and a free GitHub account. They ask for their Monday brief in a chat. To save changes, or to get a brief on a schedule, they need a paid Claude plan too *(check at launch)*. |
+| Each teammate or person in a seat (optional) | Any Claude account, including Free, and a free GitHub account. They ask for their Monday brief in a chat. To save changes, or to get a brief on a schedule, they need a paid Claude plan too. |
 
 ## How to start
 1. Open [PROMPT.md](PROMPT.md), the installer, and click **Copy raw file** (the copy icon above the file).

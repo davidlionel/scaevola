@@ -28,9 +28,9 @@ Check whether you can create files in the owner's GitHub repositories in this se
 Say: "You bring the ideas. We're about to install Scaevola, the system that builds the team behind them: your business written down, house rules every assistant follows, CMO, CRO, CFO and COO assistants, a chief of staff and a Monday brief. First, your team needs a home for its files. It's a few short steps on GitHub and Claude, one at a time, and you only do this once."
 
 1. **Check the Claude plan.** Ask which Claude plan they're on. Saving files needs Claude Code, which comes with paid plans (Pro, Max, Team and Enterprise). If they're on Free, say so plainly now, before any other step, and stop until they decide.
-2. **GitHub account.** Ask: "Do you have a GitHub account?" If not, walk them through it one screen at a time: go to github.com/signup, enter an email, a password and a username, verify the email, and choose the free plan if asked *(check at launch)*. The username is public, so suggest something plain, like their business name. If GitHub asks them to turn on two-factor sign-in, help them follow its steps; it protects their files. Remind them: never share the password, including with you.
-3. **Two private repositories.** Explain: "You'll make two folders on GitHub, called repositories. One is for your team. The other is for you only. Both are private." For each, at github.com/new: type the name, choose **Private**, tick **Add a README file**, then **Create repository** *(check at launch)*. Suggest names like `yourbusiness-team` and `yourbusiness-owner-only`. Ask them to tell you both names.
-4. **Connect GitHub to Claude Code.** Say first: "Claude Code sounds technical, but you won't write any code. It's the part of Claude that can save files to your GitHub." Go to claude.ai/code and sign in. When asked, connect GitHub and approve. When GitHub asks where to install the Claude app, choose **Only select repositories** (not All repositories), then pick the two new repositories from the **Select repositories** list *(check at launch)*. If the page says "GitHub access is required for Claude Code cloud sessions", the person who manages their Claude Team plan turns GitHub on in **Organization settings > Connectors**. If it asks to set up an environment, keep what's filled in and click **Create & finish**.
+2. **GitHub account.** Ask: "Do you have a GitHub account?" If not, walk them through it one screen at a time: go to github.com/signup, enter an email, a password and a username, verify the email, and choose the free plan if asked. The username is public, so suggest something plain, like their business name. If GitHub asks them to turn on two-factor sign-in, help them follow its steps; it protects their files. Remind them: never share the password, including with you.
+3. **Two private repositories.** Explain: "You'll make two folders on GitHub, called repositories. One is for your team. The other is for you only. Both are private." For each, at github.com/new: type the name, choose **Private**, tick **Add a README file**, then **Create repository**. Suggest names like `yourbusiness-team` and `yourbusiness-owner-only`. Ask them to tell you both names.
+4. **Connect GitHub to Claude Code.** Say first: "Claude Code sounds technical, but you won't write any code. It's the part of Claude that can save files to your GitHub." Go to claude.ai/code and sign in. When asked, connect GitHub and approve. When GitHub asks where to install the Claude app, choose **Only select repositories** (not All repositories), then pick the two new repositories from the **Select repositories** list. If the page says "GitHub access is required for Claude Code cloud sessions", the person who manages their Claude Team plan turns GitHub on in **Organization settings > Connectors**. If it asks to set up an environment, keep what's filled in and click **Create & finish**.
 5. **Move to Claude Code.** At claude.ai/code, use the repository picker under the message box to pick **both** repositories. Then copy this prompt again from the kit page, https://github.com/davidlionel/scaevola/blob/main/PROMPT.md (the copy icon above the file), paste it there and send it. Say: "See you there. This chat's job is done."
 
 # Step 2: get the starter files, then eight questions (in Claude Code)
@@ -40,7 +40,7 @@ Download each file below exactly as written (for example with curl), from https:
 - **owner-only/:** README.md, people-notes.md
 - **Also:** VERSION and TEAM-ACCESS.md (top level)
 
-If you can't reach them, tell the owner: "Your Claude Code environment needs to allow GitHub. Under the message box, open the environment menu, click the settings icon next to this environment, set **Network access** to **Trusted**, save, then start a new session with both repositories and paste this prompt again." *(check at launch)*
+If you can't reach them, tell the owner: "Your Claude Code environment needs to allow GitHub. Under the message box, open the environment menu, click the settings icon next to this environment, set **Network access** to **Trusted**, save, then start a new session with both repositories and paste this prompt again."
 If it still fails, say plainly: "I can't reach the Scaevola starter files, so I'm stopping here rather than make them up." Then stop. Never write a starter file from memory.
 
 ## Eight questions
@@ -80,7 +80,7 @@ For each file:
    - CLAUDE.md, lessons.md, seats.md, the team README, decisions/README.md, accounts/README.md and the assistants always go in the team repository. They hold rules and formats, not secrets. Don't ask where these go. The owner-only README and people-notes.md always go in the owner-only repository.
    - If only part of a file is owner-only (for example pricing rules the team can use, and the margins behind them), split it: the team part in the team repository, the rest in a file of the same kind in the owner-only repository.
 5. Ask: "Save it, change something, or skip it?" Save only on a clear yes.
-6. To save: run the secrets check (rule 3), write the file at the same path it had in team/ or owner-only/ (for example assistants/cmo.md), commit it with a short message such as "Add plan", and push it to the main branch of the right repository. The README files replace the ones GitHub made. If pushing to main is refused, push to a new branch, open a pull request, and walk the owner through **Merge** on GitHub *(check at launch)*.
+6. To save: run the secrets check (rule 3), write the file at the same path it had in team/ or owner-only/ (for example assistants/cmo.md), commit it with a short message such as "Add plan", and push it to the main branch of the right repository. The README files replace the ones GitHub made. If pushing to main is refused, push to a new branch, open a pull request, and walk the owner through **Merge** on GitHub.
 7. Say "Saved: [file] in [repository]." and move on.
 
 # Step 4: log one real decision
@@ -102,7 +102,7 @@ Walk them through it one step at a time. You can't create the schedule from insi
 7. Click **Create**, then **Run now**.
 8. Under **History**, open the run and read the brief.
 
-Ask them to tell you what the brief says. If it couldn't read the files, check that the Claude app on GitHub covers both repositories. *(Whether owners get a notice when a brief is ready: check at launch.)*
+Ask them to tell you what the brief says. If it couldn't read the files, check that the Claude app on GitHub covers both repositories.
 
 Setup is done when the brief has arrived and one decision is logged. Say so.
 

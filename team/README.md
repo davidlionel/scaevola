@@ -45,20 +45,22 @@ Open claude.ai/code with both repositories picked. Start with "Follow CLAUDE.md 
 ## Add a teammate
 Before you do: put here only what you'd be fine with a departing teammate keeping. Read-only stops edits, not copies.
 
+GitHub's screens change now and then. If a label looks different, go by what's on screen.
+
 **First time only: move this repository into a free GitHub organization.** In a personal GitHub account, anyone added to a repository can change its files. Only an organization can make someone read-only.
-1. Create the organization: your profile picture, then **Your organizations > New organization**, and pick the free plan *(check at launch)*.
+1. Create the organization: your profile picture, then **Your organizations > New organization**, and pick the free plan.
 2. Move this repository into it: open it, then **Settings**. At the bottom, under **Danger Zone**, click **Transfer**, choose your organization, type the repository name and confirm.
 3. Leave the owner-only repository in your personal account. Never move it and never add anyone to it.
-4. Let Claude read this repository in its new home: at github.com/apps/claude/installations/new, pick your organization and only this repository *(check at launch)*. Then at claude.ai/code/routines, open **Monday brief**, then **Edit**, and pick this repository again under **Repository**.
-5. Set base permissions to none, so nobody sees anything by default: the organization's **Settings > Member privileges > Base permissions**, choose no permission *(check at launch for the exact label)*.
+4. Let Claude read this repository in its new home: at github.com/apps/claude/installations/new, pick your organization and only this repository. Then at claude.ai/code/routines, open **Monday brief**, then **Edit**, and pick this repository again under **Repository**.
+5. Set base permissions to none, so nobody sees anything by default: the organization's **Settings > Member privileges > Base permissions**, choose no permission.
 
 **For each teammate:**
-1. Open this repository, then **Settings > Collaborators and teams > Add people**. Enter their GitHub username or email and choose the **Read** role *(check at launch)*. If you can't choose a role, stop: this repository is still in your personal account.
+1. Open this repository, then **Settings > Collaborators and teams > Add people**. Enter their GitHub username or email and choose the **Read** role. If you can't choose a role, stop: this repository is still in your personal account.
 2. They accept the email invitation from GitHub.
 3. Send them the "For the team" steps above. If they fill a seat, follow "When someone fills a seat" in [seats.md](seats.md).
 
 ## Remove a teammate
-Do it the day they leave. On GitHub, open this repository, then **Settings > Collaborators and teams**, and remove them *(check at launch)*.
+Do it the day they leave. On GitHub, open this repository, then **Settings > Collaborators and teams**, and remove them.
 
 ## Monthly check
 Once a month:

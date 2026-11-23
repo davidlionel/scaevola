@@ -7,6 +7,6 @@ Each update lists what changed in plain words and the files it touches. Your Mon
 - The Monday brief checks for updates, and the chief of staff applies them on your yes.
 - It remembers your corrections, and you approve each one: a lessons file every assistant reads first, and a Monday brief item that asks you to keep or drop each new lesson.
 - An owner-only people notes file, and team access steps in your team README that make teammates read-only.
-- Early version: Scaevola is new and still being tested. Share what you made in Discussions.
+- Built with Scaevola, and released early on purpose: it improves in the open, with every release. Share what you made in Discussions.
 - Starter files live in this repository's team/ and owner-only/ folders. Setup copies them into your two repositories and fills them in from your answers; PROMPT.md holds only the setup steps.
 - Files: all.
