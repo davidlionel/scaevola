@@ -7,7 +7,7 @@ Last updated: [YYYY-MM-DD]
 ## What goes here
 Anything that fails this test: "Would I be fine if a salesperson read this aloud to a client?"
 
-Always here: [what stays owner-only, from setup]. Owner-only decisions go in a decisions folder here, in the same format as the team's.
+Always here: [what stays owner-only, from setup]. Owner-only decisions go in a decisions folder here, in the same format as the team's. Notes about people (pay, raises, performance, personal matters) go in [people-notes.md](people-notes.md).
 
 ## Rules
 - The house rules in the team repository's CLAUDE.md apply here too.

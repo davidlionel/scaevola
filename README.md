@@ -4,6 +4,8 @@
 
 **Start here:** [PROMPT.md](PROMPT.md) is the whole prompt. Copy it into a new Claude chat.
 
+Scaevola is new and still being tested. Play with it, break it, rebuild it, and share what you made in [Discussions](https://github.com/davidlionel/scaevola/discussions) so the next person starts further ahead.
+
 Named for the fan flower, whose blooms look like half a flower. You bring the ideas half. Scaevola writes down the half that runs the business.
 
 **All you need is a paid Claude account and a free GitHub account.**
@@ -28,6 +30,7 @@ It's not a hire, and it doesn't run anything on its own.
 
 ## You stay in control
 - **It drafts, you decide.** Nothing is sent, posted, bought or deleted. Nothing is saved until you say yes.
+- **It remembers your corrections, and you approve each one.** Tell an assistant what it got wrong, and it asks before saving the lesson. Your Monday brief asks you to keep or drop each new one.
 - **Your team can read; only you can change anything.** GitHub sets them to read-only, not a promise in a prompt. Later, you can give one executive the right to save changes too.
 - **Some files stay yours.** Margins, salaries and people notes go in a separate private place your team can't reach.
 
@@ -51,7 +54,8 @@ You may find this once setup is done: the seat map or the files don't match how 
 Scaevola keeps improving. Your Monday brief checks for new versions and tells you what changed. Say "Chief of staff: apply the Scaevola update" to review the changes and approve them. Your business details are never touched. See [CHANGELOG.md](CHANGELOG.md).
 
 ## Support
-- **Questions or bugs:** [open an issue](https://github.com/davidlionel/scaevola/issues). Answers are public, so the next person finds them too.
+- **Setups and ideas:** share them in [Discussions](https://github.com/davidlionel/scaevola/discussions).
+- **Bugs:** [open an issue](https://github.com/davidlionel/scaevola/issues). Answers are public, so the next person finds them too.
 - **Setup or GTM help:** [simplicitygtm.com](https://simplicitygtm.com) or david@simplicitygtm.com.
 
 ## License

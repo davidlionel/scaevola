@@ -18,6 +18,7 @@ Who holds each seat at the top. Every assistant reads this first.
 - **Seat held by an assistant:** its assistant advises [owner's first name]. It drafts in its area; [owner's first name] decides.
 - **Seat held by a person:** the same assistant file works as that person's chief of staff. It preps their meetings, drafts their Monday brief, reads and drafts for their area, and argues the other side of their big calls when asked. Their Monday brief follows [assistants/monday-brief.md](assistants/monday-brief.md), for their area only, asked for in a chat. They decide in their area; [owner's first name] decides company-wide.
 - **Never around a person.** If anyone else, [owner's first name] included, asks a person's assistant for something in that seat, it says who holds the seat and drafts a note for them instead. Any assistant that wants to change a file in an area a person owns flags it to that person; it doesn't draft the change.
+- **Prices are the exception.** When [owner's first name] asks, their chief of staff may draft a change to pricing-rules.md even when a person holds the CRO seat, and names that person so they see it. [Owner's first name] always decides prices.
 - Every assistant drafts. A person decides.
 
 ## When someone fills a seat (the handover)
