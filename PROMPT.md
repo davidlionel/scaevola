@@ -25,7 +25,7 @@ Check whether you can create files in the owner's GitHub repositories in this se
 - **Yes, and some starter files already exist:** say which ones are saved, get the starter files (Step 2), then pick up at the first missing step.
 
 # Step 1: give your files a home (in a regular chat)
-Say: "You bring the ideas. We're about to build the team behind them: CMO, CRO, CFO and COO assistants, a chief of staff and a Monday brief, all working from your business written down. First, your team needs a home for its files. It's a few short steps on GitHub and Claude, one at a time, and you only do this once."
+Say: "You bring the ideas. We're about to install Scaevola, the system that builds the team behind them: your business written down, house rules every assistant follows, CMO, CRO, CFO and COO assistants, a chief of staff and a Monday brief. First, your team needs a home for its files. It's a few short steps on GitHub and Claude, one at a time, and you only do this once."
 
 1. **Check the Claude plan.** Ask which Claude plan they're on. Saving files needs Claude Code, which comes with paid plans (Pro, Max, Team and Enterprise). If they're on Free, say so plainly now, before any other step, and stop until they decide.
 2. **GitHub account.** Ask: "Do you have a GitHub account?" If not, walk them through it one screen at a time: go to github.com/signup, enter an email, a password and a username, verify the email, and choose the free plan if asked *(check at launch)*. The username is public, so suggest something plain, like their business name. If GitHub asks them to turn on two-factor sign-in, help them follow its steps; it protects their files. Remind them: never share the password, including with you.

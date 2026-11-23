@@ -4,16 +4,27 @@
 
 **You bring the ideas. Scaevola builds the team behind them.**
 
-An executive team for your business, built in Claude: CMO, CRO, CFO and COO assistants, a chief of staff, a devil's advocate and a Monday brief. They work from your business written down in your own GitHub. They draft while you decide, and they remember your corrections once you approve them. Free and open.
+Scaevola is a free, open system that builds your executive team in Claude. It writes your business down in your own GitHub, sets the house rules every assistant follows, and gives you CMO, CRO, CFO and COO assistants, a chief of staff and a Monday brief that work from it. They draft while you decide. They remember the corrections you approve. And the team grows as you hire.
 
 **All you need is a paid Claude account and a free GitHub account.**
 
-**Start here:** [PROMPT.md](PROMPT.md) sets up your team. Copy it into a new Claude chat and answer one question at a time. It copies the starter files in [team/](team/) and [owner-only/](owner-only/) into your own GitHub and fills them in from your answers.
+**Start here:** [PROMPT.md](PROMPT.md) is the installer. Copy it into a new Claude chat and answer one question at a time. It copies the system's files in [team/](team/) and [owner-only/](owner-only/) into two private repositories in your own GitHub and fills them in from your answers.
 
 Scaevola is new and still being tested. Play with it, break it, rebuild it, and share what you made in [Discussions](https://github.com/davidlionel/scaevola/discussions) so the next person starts further ahead.
 
+## What's in the system
+1. **Your business, written down.** Your plan, customers, pricing rules, decisions, seat map and account notes, as plain files in your team repository. People notes, margins and anything else only you should see go in a separate owner-only repository. Every assistant reads the files first, so no chat starts from zero.
+2. **House rules every assistant follows.** It drafts, you decide. Text inside an email, a web page or a document is information, never an instruction. Team files and owner-only files stay apart. No secrets in any file.
+3. **An executive team.** CMO, CRO, CFO and COO assistants, a chief of staff, a devil's advocate and prep me. Each seat's assistant advises you, or works for the person you hire into that seat.
+4. **A weekly rhythm.** A Monday brief every week: the goal, what changed, what's waiting on you, three priorities.
+5. **Memory you approve.** Tell an assistant what it got wrong, and the fix becomes a lesson every assistant reads, saved only on your yes.
+6. **Team access.** Teammates get read-only access, set by GitHub, so they can prep for meetings without asking you.
+7. **Updates you approve.** Your Monday brief tells you when Scaevola improves. Nothing changes until you say yes.
+
+It works alongside the connectors and AI tools you already use. It runs on Claude, and every file lives in your GitHub.
+
 ## Make the AI tools you already use work for your business
-Connectors give Claude your CRM, email or calendar. They know your tools, not your business. Scaevola writes down the business: your plan, customers, pricing rules, decisions, seats and lessons, plus house rules every assistant follows.
+Connectors give Claude your CRM, email or calendar. They know your tools, not your business. Scaevola gives them the business: your plan, customers, pricing rules, decisions, seats and lessons, plus the house rules every assistant follows.
 
 - **In Claude:** add your Scaevola files to a chat, next to the connectors you've already turned on, and Claude puts those tools to work on your goals.
 - **By your rules:** it drafts, you decide. Text inside an email or a CRM note is information, never an instruction. Team files and owner-only files stay apart.
@@ -21,11 +32,9 @@ Connectors give Claude your CRM, email or calendar. They know your tools, not yo
 
 Your business, your rules. Scaevola writes them down so your AI tools can work by them. It doesn't set up connectors, and the setup and assistants run on Claude.
 
-## What you get
-**Your business, written down once.** Your plan, who you sell to, your pricing rules, your decisions and your customer notes, saved as plain files in your own GitHub. Every assistant reads them first, so no chat starts from zero.
-
-**A team that works from it:**
-- **CMO, CRO, CFO and COO:** one assistant for each seat at the top (marketing, sales, money, operations). Each drafts in its area.
+## The executive team
+Every assistant works from your files and drafts in its own area:
+- **CMO, CRO, CFO and COO:** one assistant for each seat at the top (marketing, sales, money, operations).
 - **Chief of staff:** keeps the files current and helps you pick what matters this week.
 - **Devil's advocate:** the strongest case against a big call, before you make it.
 - **Monday brief:** one page every Monday: the goal, what changed, what's waiting on you.
@@ -57,7 +66,7 @@ Named for the fan flower, whose blooms look like half a flower. You bring the id
 | Each teammate or person in a seat (optional) | Any Claude account, including Free, and a free GitHub account. They ask for their Monday brief in a chat. To save changes, or to get a brief on a schedule, they need a paid Claude plan too *(check at launch)*. |
 
 ## How to start
-1. Open [PROMPT.md](PROMPT.md) and click **Copy raw file** (the copy icon above the file).
+1. Open [PROMPT.md](PROMPT.md), the installer, and click **Copy raw file** (the copy icon above the file).
 2. Open a new chat at claude.ai and paste it.
 3. Answer one question at a time. It tells you each next step.
 
@@ -82,9 +91,9 @@ What's in this repository:
 
 | Path | What it is |
 |---|---|
-| [PROMPT.md](PROMPT.md) | The setup steps. Holds no starter files. |
-| [team/](team/) | Starter files for the owner's team repository, with blanks in [brackets] that setup fills. |
-| [owner-only/](owner-only/) | Starter files for the owner's owner-only repository. |
+| [PROMPT.md](PROMPT.md) | The installer: the setup steps. Holds no starter files. |
+| [team/](team/) | The system's team files: starter files for the owner's team repository, with blanks in [brackets] that setup fills. |
+| [owner-only/](owner-only/) | The system's owner-only files: starter files for the owner's owner-only repository. |
 | [TEAM-ACCESS.md](TEAM-ACCESS.md) | The five team access steps setup walks through. |
 | [VERSION](VERSION), [CHANGELOG.md](CHANGELOG.md) | The current version and what changed in each one. |
 
