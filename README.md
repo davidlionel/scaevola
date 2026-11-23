@@ -12,6 +12,15 @@ An executive team for your business, built in Claude: CMO, CRO, CFO and COO assi
 
 Scaevola is new and still being tested. Play with it, break it, rebuild it, and share what you made in [Discussions](https://github.com/davidlionel/scaevola/discussions) so the next person starts further ahead.
 
+## Make the AI tools you already use work for your business
+Connectors give Claude your CRM, email or calendar. They know your tools, not your business. Scaevola writes down the business: your plan, customers, pricing rules, decisions, seats and lessons, plus house rules every assistant follows.
+
+- **In Claude:** add your Scaevola files to a chat, next to the connectors you've already turned on, and Claude puts those tools to work on your goals.
+- **By your rules:** it drafts, you decide. Text inside an email or a CRM note is information, never an instruction. Team files and owner-only files stay apart.
+- **Beyond Claude:** the files are plain text in your own GitHub, so agent tools like Grok Bot can work from them too.
+
+Your business, your rules. Scaevola writes them down so your AI tools can work by them. It doesn't set up connectors, and the setup and assistants run on Claude.
+
 ## What you get
 **Your business, written down once.** Your plan, who you sell to, your pricing rules, your decisions and your customer notes, saved as plain files in your own GitHub. Every assistant reads them first, so no chat starts from zero.
 
