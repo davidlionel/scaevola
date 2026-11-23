@@ -1,11 +1,11 @@
 #!/bin/sh
-# Prints the paste-ready prompt: PROMPT.md, then every starter template, then TEAM-ACCESS.md.
-# The templates live once, in template/; this keeps the pasted prompt in step with them.
-# Usage: sh build-prompt.sh > PASTE-INTO-CLAUDE.md  (run again whenever a template changes)
+# Builds the one paste-ready prompt (../PROMPT.md): setup-steps.md, then every starter template, then ../TEAM-ACCESS.md.
+# Edit the parts here in source/, never ../PROMPT.md directly.
+# Usage: sh source/build-prompt.sh > PROMPT.md  (run again whenever a part changes)
 set -e
 cd "$(dirname "$0")"
 
-cat PROMPT.md
+cat setup-steps.md
 printf '\n# Starter file templates\nEach file below is a template. The path says where it goes. Fill it as Step 3 says.\n'
 for f in CLAUDE.md seats.md plan.md customer-profile.md pricing-rules.md decisions/README.md accounts/README.md \
          assistants/chief-of-staff.md assistants/devils-advocate.md assistants/prep-me.md assistants/monday-brief.md \
@@ -21,4 +21,4 @@ for f in CLAUDE.md seats.md plan.md customer-profile.md pricing-rules.md decisio
   printf '~~~~\n'
 done
 printf '\n# Team access steps\n'
-cat TEAM-ACCESS.md
+cat ../TEAM-ACCESS.md
