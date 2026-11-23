@@ -72,8 +72,10 @@ Named for the fan flower, whose blooms look like half a flower. You bring the id
 
 **Honest limits:** it works only with Claude and GitHub. Read-only stops edits, not copies, so your team files should hold only what you'd be fine with a departing teammate keeping.
 
-## When it doesn't fit how you work
-You may find this once setup is done: the seat map or the files don't match how the business really runs. That's usually because how it runs lives in your head and in other people's habits, not in any file yet. Two ways forward: tell the chief of staff what's different and keep shaping it yourself, or have an operations person make it fit. Get it fitted for you: [simplicitygtm.com](https://simplicitygtm.com) or david@simplicitygtm.com.
+## Set it up yourself. Get help when you want it.
+Scaevola is built for you to install and run on your own. If the files don't match how your business really runs, tell the chief of staff what's different and keep shaping it. That's normal: a lot of how a business runs lives in people's heads and habits, not in any file yet.
+
+If a step gets too technical, your setup is complex, or you hit any other blocker, setup support is there to get it right for your business: [simplicitygtm.com](https://simplicitygtm.com) or david@simplicitygtm.com.
 
 ## Updates
 Scaevola keeps improving. Your Monday brief checks for new versions and tells you what changed. Say "Chief of staff: apply the Scaevola update" to review the changes and approve them. Your business details are never touched. See [CHANGELOG.md](CHANGELOG.md).
