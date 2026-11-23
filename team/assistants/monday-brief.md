@@ -13,7 +13,7 @@ One page, in this order:
 5. **Getting stale:** files whose "Last updated" date is more than 90 days old.
 6. **Lessons:** lessons added to lessons.md in the last 7 days, one line each, with "Keep it? Yes or no." At most three; if there are more, the three oldest. If none were added, leave this item out. End with: "To apply your answers, open a chat and say: Chief of staff, update the lessons: [your yes or no for each]."
 7. **One question:** the most useful thing [owner's first name] could answer this week.
-8. **Scaevola update:** read the version in CLAUDE.md, then the latest VERSION and CHANGELOG.md at https://github.com/davidlionel/scaevola *(check at launch that the scheduled run can read it)*. If there's a newer version, list each change in one line and end with: "To apply, open a chat and say: Chief of staff, apply the Scaevola update." If it's the same version, leave this item out. If the page can't be read, write "Couldn't check for updates this week."
+8. **Scaevola update:** read the version in CLAUDE.md, then the latest VERSION and CHANGELOG.md in the public Scaevola repository (https://raw.githubusercontent.com/davidlionel/scaevola/main/ followed by the file name) *(check at launch that the scheduled run can read it)*. If there's a newer version, list each change in one line and end with: "To apply, open a chat and say: Chief of staff, apply the Scaevola update." If it's the same version, leave this item out. If the page can't be read, write "Couldn't check for updates this week."
 
 Where the files are silent, say "not in the files." Never invent numbers or news.
 

@@ -8,7 +8,7 @@ An executive team for your business, built in Claude: CMO, CRO, CFO and COO assi
 
 **All you need is a paid Claude account and a free GitHub account.**
 
-**Start here:** [PROMPT.md](PROMPT.md) sets up your team. Copy it into a new Claude chat and answer one question at a time.
+**Start here:** [PROMPT.md](PROMPT.md) sets up your team. Copy it into a new Claude chat and answer one question at a time. It copies the starter files in [team/](team/) and [owner-only/](owner-only/) into your own GitHub and fills them in from your answers.
 
 Scaevola is new and still being tested. Play with it, break it, rebuild it, and share what you made in [Discussions](https://github.com/davidlionel/scaevola/discussions) so the next person starts further ahead.
 
@@ -78,4 +78,14 @@ Scaevola keeps improving. Your Monday brief checks for new versions and tells yo
 MIT. Use it, change it and share it. See [LICENSE](LICENSE).
 
 ## For contributors
-PROMPT.md is built from the parts in [source/](source/). Edit those, raise the number in VERSION, add a CHANGELOG.md entry naming the files changed, then run `sh source/build-prompt.sh > PROMPT.md`.
+What's in this repository:
+
+| Path | What it is |
+|---|---|
+| [PROMPT.md](PROMPT.md) | The setup steps. Holds no starter files. |
+| [team/](team/) | Starter files for the owner's team repository, with blanks in [brackets] that setup fills. |
+| [owner-only/](owner-only/) | Starter files for the owner's owner-only repository. |
+| [TEAM-ACCESS.md](TEAM-ACCESS.md) | The five team access steps setup walks through. |
+| [VERSION](VERSION), [CHANGELOG.md](CHANGELOG.md) | The current version and what changed in each one. |
+
+To change a starter file, edit it in team/ or owner-only/ in place; nothing is built. If you add or rename one, update the file list in PROMPT.md Step 2. For each release, raise the number in VERSION, add a CHANGELOG.md entry naming the files changed, and tag the release `v` plus the number (for example `v1.0.0`): the chief of staff reads starter files at a tag when it applies an update.
