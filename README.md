@@ -2,31 +2,38 @@
 
 ![Scaevola: you bring the ideas, it builds the team behind them](media/scaevola.gif)
 
-**Start here:** [PROMPT.md](PROMPT.md) is the whole prompt. Copy it into a new Claude chat.
+**You bring the ideas. Scaevola builds the team behind them.**
 
-Scaevola is new and still being tested. Play with it, break it, rebuild it, and share what you made in [Discussions](https://github.com/davidlionel/scaevola/discussions) so the next person starts further ahead.
-
-Named for the fan flower, whose blooms look like half a flower. You bring the ideas half. Scaevola writes down the half that runs the business.
+An executive team for your business, built in Claude: CMO, CRO, CFO and COO assistants, a chief of staff, a devil's advocate and a Monday brief. They work from your business written down in your own GitHub. They draft while you decide, and they remember your corrections once you approve them. Free and open.
 
 **All you need is a paid Claude account and a free GitHub account.**
 
-## What it is
-A free [prompt](PROMPT.md) you paste into Claude. It helps you write your business down: your plan, who you sell to, your pricing rules, your decisions and your customer notes. It saves them as plain files in your own GitHub, where Claude can read all of them properly. Then a few assistants work from those files:
+**Start here:** [PROMPT.md](PROMPT.md) sets up your team. Copy it into a new Claude chat and answer one question at a time.
 
+Scaevola is new and still being tested. Play with it, break it, rebuild it, and share what you made in [Discussions](https://github.com/davidlionel/scaevola/discussions) so the next person starts further ahead.
+
+## What you get
+**Your business, written down once.** Your plan, who you sell to, your pricing rules, your decisions and your customer notes, saved as plain files in your own GitHub. Every assistant reads them first, so no chat starts from zero.
+
+**A team that works from it:**
+- **CMO, CRO, CFO and COO:** one assistant for each seat at the top (marketing, sales, money, operations). Each drafts in its area.
 - **Chief of staff:** keeps the files current and helps you pick what matters this week.
 - **Devil's advocate:** the strongest case against a big call, before you make it.
 - **Monday brief:** one page every Monday: the goal, what changed, what's waiting on you.
 - **Prep me:** a teammate types "prep me for my 2pm with Acme" and gets one page, without calling you.
-- **CMO, CRO, CFO and COO assistants:** one for each seat at the top (marketing, sales, money, operations). Each drafts in its area.
 
-## Where you are decides what you get
-- **Just you:** all four seat assistants advise you, plus the chief of staff.
-- **Growing:** assistants for the seats you haven't filled. Each person you've hired gets their seat's assistant as their chief of staff.
-- **An existing executive team:** a chief of staff for each executive: prep for their meetings, their Monday brief, the case against their big calls.
+## Built to grow with your business
+Start where you are. Scaevola sets up only the seats you need.
+
+- **Solopreneur** (just you): all four seat assistants advise you, plus the chief of staff.
+- **Small team** (some seats filled): assistants for the seats still empty. Each person you've hired gets their seat's assistant as their chief of staff.
+- **Leadership team** (your executives are in place): a chief of staff for each executive: prep for their meetings, their Monday brief, the case against their big calls.
 
 A file called seats.md says who holds each seat: "person" or "assistant." When you hire, you change that one word and add their name, and the seat's assistant now works for them, from the same files. An assistant never works around the person in a seat or makes their calls.
 
 It's not a hire, and it doesn't run anything on its own.
+
+Named for the fan flower, whose blooms look like half a flower. You bring the ideas half. Scaevola writes down the half that runs the business.
 
 ## You stay in control
 - **It drafts, you decide.** Nothing is sent, posted, bought or deleted. Nothing is saved until you say yes.
