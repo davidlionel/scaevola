@@ -17,7 +17,7 @@ for f in CLAUDE.md seats.md plan.md customer-profile.md pricing-rules.md decisio
     *) where="$f (team or owner-only, the owner chooses)" ;;
   esac
   printf '\n## Template: %s\n~~~~markdown\n' "$where"
-  cat "template/$f"
+  sed "s/{{SCAEVOLA_VERSION}}/$(cat ../VERSION)/g" "template/$f"
   printf '~~~~\n'
 done
 printf '\n# Team access steps\n'

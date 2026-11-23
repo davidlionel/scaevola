@@ -47,6 +47,9 @@ It's not a hire, and it doesn't run anything on its own.
 ## When it doesn't fit how you work
 You may find this once setup is done: the seat map or the files don't match how the business really runs. That's usually because how it runs lives in your head and in other people's habits, not in any file yet. Two ways forward: tell the chief of staff what's different and keep shaping it yourself, or have an operations person make it fit. Get it fitted for you: [simplicitygtm.com](https://simplicitygtm.com) or david@simplicitygtm.com.
 
+## Updates
+Scaevola keeps improving. Your Monday brief checks for new versions and tells you what changed. Say "Chief of staff: apply the Scaevola update" to review the changes and approve them. Your business details are never touched. See [CHANGELOG.md](CHANGELOG.md).
+
 ## Support
 - **Questions or bugs:** [open an issue](https://github.com/davidlionel/scaevola/issues). Answers are public, so the next person finds them too.
 - **Setup or GTM help:** [simplicitygtm.com](https://simplicitygtm.com) or david@simplicitygtm.com.
@@ -55,4 +58,4 @@ You may find this once setup is done: the seat map or the files don't match how 
 MIT. Use it, change it and share it. See [LICENSE](LICENSE).
 
 ## For contributors
-PROMPT.md is built from the parts in [source/](source/). Edit those, then run `sh source/build-prompt.sh > PROMPT.md`.
+PROMPT.md is built from the parts in [source/](source/). Edit those, raise the number in VERSION, add a CHANGELOG.md entry naming the files changed, then run `sh source/build-prompt.sh > PROMPT.md`.

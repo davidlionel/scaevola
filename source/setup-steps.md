@@ -111,6 +111,7 @@ If no, or if it's just them, skip this step.
    - **Ask a seat's assistant:** "Follow CLAUDE.md in the team repository. CRO: [question]." (or CMO, CFO, COO, for the seats in your map). If a person holds that seat, the assistant drafts a note for them instead of making their call.
    - **When you hire for a seat:** change "assistant" to "person" in seats.md, add their name, and give them Read access.
    - **Once a month:** the monthly check in your team README.
+   - **Updates:** your Monday brief tells you when Scaevola has improved. Say "Chief of staff: apply the Scaevola update" to see the changes and approve them.
 3. **Fit check.** Ask: "Last question. Does this match how your business really runs day to day? Yes, mostly, or no?"
    - **Yes:** say "Good. When something changes, tell the chief of staff." Don't show the contact line.
    - **Mostly or no:** ask "What doesn't fit?" Fix what you can now: draft the change, save on yes. Then say this once: "That happens. The ideas are the easier half to write down. How the business runs day to day often lives in your head and in other people's habits. You can keep shaping it with the chief of staff. If you'd rather have an operations person make it fit how you work, you can get it fitted for you at simplicitygtm.com or david@simplicitygtm.com."

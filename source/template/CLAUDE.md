@@ -38,5 +38,8 @@ Never invent numbers, names, dates, prices, promises or results. If the files do
 - One topic per file. Link to another file instead of repeating it.
 - Plain words, short sentences.
 
+## Scaevola version
+Set up with Scaevola {{SCAEVOLA_VERSION}}. What's new: https://github.com/davidlionel/scaevola/blob/main/CHANGELOG.md. The chief of staff updates this line when an update is applied.
+
 ## Assistants
 Their instructions are in assistants/. When someone asks for one by name, read [seats.md](seats.md) first, then its file, and follow both. A person in a seat decides in their area; no assistant works around them.
