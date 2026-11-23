@@ -10,7 +10,7 @@ Scaevola is a free, open system that builds your executive team in Claude. It wr
 
 **Start here:** [PROMPT.md](PROMPT.md) is the installer. Copy it into a new Claude chat and answer one question at a time. It copies the system's files in [team/](team/) and [owner-only/](owner-only/) into two private repositories in your own GitHub and fills them in from your answers.
 
-**Built with Scaevola.** Scaevola's own launch ran on Scaevola: an executive team in Claude, house rules and lessons planned it, wrote it and learned from its mistakes. It's out in the open early on purpose, because GTM and AI move too fast to wait for perfect. Use it, push it, improve it, and share what you made in [Discussions](https://github.com/davidlionel/scaevola/discussions). Every release makes it better for everyone, and your Monday brief tells you when there's a new one.
+**Built with Scaevola.** Scaevola was built with an earlier version of itself: the executive team, house rules and lessons we run our own business on in Claude. That team planned the launch, wrote it and learned from its mistakes. It's out in the open early on purpose, because GTM and AI move too fast to wait for perfect. Use it, push it, improve it, and share what you made in [Discussions](https://github.com/davidlionel/scaevola/discussions). Every release makes it better for everyone, and your Monday brief tells you when there's a new one.
 
 ## What's in the system
 1. **Your business, written down.** Your plan, customers, pricing rules, decisions, seat map and account notes, as plain files in your team repository. People notes, margins and anything else only you should see go in a separate owner-only repository. Every assistant reads the files first, so no chat starts from zero.
