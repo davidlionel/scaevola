@@ -4,7 +4,7 @@
 
 **You bring the ideas. Scaevola builds the team behind them.**
 
-Scaevola is a free, open system that builds your executive team in Claude. It writes your business down in your own GitHub, sets the house rules every assistant follows, and gives you CMO, CRO, CFO and COO assistants, a chief of staff and a Monday brief that work from it. They draft while you decide. They remember the corrections you approve. And the team grows as you hire.
+When the business lives in your head, every week and every AI chat starts from zero. Scaevola is a free, open system that builds your executive team in Claude. It writes your business down in your own GitHub, sets the house rules every assistant follows, and gives you CMO, CRO, CFO and COO assistants, a chief of staff and a Monday brief that work from it. They draft while you decide. They remember the corrections you approve. And the team grows as you hire.
 
 **All you need is a paid Claude account and a free GitHub account.**
 
