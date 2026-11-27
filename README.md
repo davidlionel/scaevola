@@ -99,4 +99,4 @@ What's in this repository:
 | [TEAM-ACCESS.md](TEAM-ACCESS.md) | The five team access steps setup walks through. |
 | [VERSION](VERSION), [CHANGELOG.md](CHANGELOG.md) | The current version and what changed in each one. |
 
-To change a starter file, edit it in team/ or owner-only/ in place; nothing is built. If you add or rename one, update the file list in PROMPT.md Step 2. For each release, raise the number in VERSION, add a CHANGELOG.md entry naming the files changed, and tag the release `v` plus the number (for example `v1.0.0`): the chief of staff reads starter files at a tag when it applies an update.
+To change a starter file, edit it in team/ or owner-only/ in place; nothing is built. If you add or rename one, update the file list in PROMPT.md Step 2. For each release, raise the number in VERSION, add a CHANGELOG.md entry naming the files changed. Tags are optional: each setup records the commit its files came from, and the chief of staff compares against that commit when it applies an update. Tag a release (`v` plus the number) when you want a GitHub release announcement.
